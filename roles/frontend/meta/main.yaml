@@ -1,12 +1,10 @@
 dependencies:
-# frontend is dependent on below roles
-- role: "{{ item }}"
-  - mongodb
-  - catalogue
-  - redis
-  - cart
-  - user
-  - mysql
-  - shipping
-  - rabbitmq
-  - payment
+- role: mongodb
+- role: catalogue
+- role: redis
+- role: cart
+- role: user
+- role: mysql
+- role: rabbitmq
+- role: shipping
+- role: payment
